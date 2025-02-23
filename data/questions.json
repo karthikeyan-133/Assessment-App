@@ -1,0 +1,302 @@
+[
+  {
+    "_id": "1",
+     "text": "Select all parties involved in a Letter of Credit",
+    "options": [
+      "Import and Exporter",
+      "Advising Bank",
+      "Issuing Bank ",
+      "All the Above"
+    ],
+    "correctAnswer": "All the Above",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "2",
+    "text": "Select the MT messages NOT involved in Trade Finance",
+    "options": [
+      "MT 700",
+      "MT 707",
+      "MT 799",
+      "MT 299"
+    ],
+    "correctAnswer": "MT 299",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "3",
+    "text": "Who is the initiator of the Letter of Credit",
+    "options": [
+      "Applicant",
+      "Issuing Bank",
+      "Beneficiary",
+      "Advising Bank"
+    ],
+    "correctAnswer": "Applicant",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "4",
+    "text": "Advising Bank and Confirming Bank are always different",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Not Applicable"
+    ],
+    "correctAnswer": "No",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "5",
+    "text": "Which 2 regulations are applicable for Trade Finance",
+    "options": [
+      "UCP , ISBP",
+      "GRC",
+      "SWIFT",
+      "None of the above"
+    ],
+    "correctAnswer": "UCP , ISBP",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "6",
+    "text": "Select all the Compliance screening for Trade Finance",
+    "options": [
+      "Sanctions Screening",
+      "Dual Usage of Goods",
+      "Vessel Tracking and TBML",
+      "All the above"
+    ],
+    "correctAnswer": "All the above",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "7",
+    "text": "What are the various stages of Letter of Credit in order",
+    "options": [
+      "Issuance, Advising, Document Checking, Payment",
+      "Document Checking, Amendments, Issuance, Payment",
+      "Document Checking, Advising, Issuance, Payment",
+      "Issuance, Advising, Amendments, Issuance, payment"
+    ],
+    "correctAnswer": "Issuance, Advising, Document Checking, Payment",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "8",
+    "text": "In which type the payment is released immediately",
+    "options": [
+      "Usance",
+      "Sight",
+      "Both of the above",
+      "None of the above"
+    ],
+    "correctAnswer": "Sight",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "9",
+    "text": "A Letter of Credit can be revoked",
+    "options": [
+      "Yes Its Correct",
+      "No Its Wrong",
+      "Maybe Its Correct",
+      "Its Not Applicable"
+    ],
+    "correctAnswer": "Yes",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "10",
+    "text": "How many incoterms are there as per latest incoterms (Select the latest incoterm along)",
+    "options": [
+      "11 Incoterms: Incoterms 2020",
+      "11 Incoterms: Incoterms 2010",
+      "13 Incoterms: Incoterms 2020",
+      "13 Incoterms: Incoterms 2010"
+    ],
+    "correctAnswer": "11 Incoterms: Incoterms 2020",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "11",
+    "text": "What are the 3 Stages of Money Laundering",
+    "options": [
+      "Layering, Positioning, Integration",
+      "Positioning, Flavoring, Integration",
+      "Transferring, Layering, Integration",
+      "Placement, Layering, Integration"
+    ],
+    "correctAnswer": "Placement, Layering, Integration",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "12",
+    "text": "Multiple transaction done to make the trace of money harder is called",
+    "options": [
+      "Transferring",
+      "Layering",
+      "Placement",
+      "Integration"
+    ],
+    "correctAnswer": "Layering",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "13",
+    "text": "The nature of goods is not aligned to the nature of business -> this comes under which compilance",
+    "options": [
+      "TBML",
+      "Usage of Goods",
+      "Sanctions",
+      "Remittance"
+    ],
+    "correctAnswer": "TBML",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "14",
+    "text": "Monitor transactions for suspicious activities and report any unusual behavior to authorities is called ",
+    "options": [
+      "Transaction Observing",
+      "Transaction Monitoring",
+      "Risk assessment",
+      "Identification Verification"
+    ],
+    "correctAnswer": "Transaction Monitoring",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "15",
+    "text": "3 Importance of KYC are",
+    "options": [
+      "Regulatory Compliance, Risk Mitigation and Customer Trust",
+      "Knowing your Customer, Risk Exploration and Consumer Behaviour",
+      "Knowing the Dealer, Product Scaling, Customer Behavior",
+      "Risk assessment, Consumers Behaviour, Placement"
+    ],
+    "correctAnswer": "Regulatory Compliance, Risk Mitigation and Customer Trust",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "16",
+    "text": "Collect and verify customer identification documents such as ID cards or passports is part if CIP Customer Identification",
+    "options": [
+     "True",
+      "False",
+      "I Think Maybe",
+      "Not applicable"
+    ],
+    "correctAnswer": "Yes",
+    "topic": "Assessment"
+ },
+  {
+    "_id": "17",
+    "text": "Ultimate Beneficiary Owner UBO is the objective of KYC in the process of identifying sources of funds",
+    "options": [
+     "Yes Correct",
+      "No Wrong",
+      "maybe",
+      "not applicable"
+    ],
+    "correctAnswer": "No",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "18",
+    "text": "RCSA stands for",
+    "options": [
+      "Risk and Compliance Self Assessment",
+      "Risk and Control Self Assessment",
+      "Risk and Control Self Appraisal",
+      "Risk and Control Study Assessment"
+    ],
+    "correctAnswer": "Risk and Control Self Assessment",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "19",
+    "text": "When we have a Remitter or Beneficiary as a Customer and not a Bank, the MT used is",
+    "options": [
+      "MT  103",
+      "MT  202",
+      "MT  700",
+      "MT  199"
+    ],
+    "correctAnswer": "MT 103",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "20",
+    "text": "The account of one bank with another bank is called Nastro",
+    "options": [
+     "yes",
+      "no",
+      "Maybe yes",
+      "not applicable"
+    ],
+    "correctAnswer": "Yes",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "21",
+    "text": "The Mirror account of Nostro is called",
+    "options": [
+      "Vostro",
+      "Vostro Mirror",
+      "Nostro Vostro",
+      "None of the above"
+    ],
+    "correctAnswer": "Vostro",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "22",
+    "text": "The Organization that's process the work of Another organization / Bank is called",
+    "options": [
+      "Third Party Organization",
+      "Captive Organization",
+      "Fintech Organization",
+      "Domestic Corporate"
+    ],
+    "correctAnswer": "Third Party Organization",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "23",
+    "text": "The Branch entity set up in india to process the back office of the foreign banks is called",
+    "options": [
+      "Third Party organization",
+      "Captive organization",
+      "Fintech organization",
+      "Domestic corporate"
+    ],
+    "correctAnswer": "Captive Organization",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "24",
+    "text": "The Organization that specializes in automating financial products is called",
+    "options": [
+      "third Party Organization",
+      "captive Organization",
+      "fintech Organization",
+      "domestic Corporate"
+    ],
+    "correctAnswer": "Fintech Organization",
+    "topic": "Assessment"
+  },
+  {
+    "_id": "25",
+    "text": "Types of Controls that gets implemented to Control a Risk are",
+    "options": [
+      "Manual and Systemic",
+      "Automatic and Systemic",
+      "Inherent and Manual",
+      "Manual and No Control"
+    ],
+    "correctAnswer": "Manual and Systemic",
+    "topic": "Assessment"
+  }
+]

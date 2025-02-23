@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Local development files
+*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swm
+
+# Vite specific
+.vite/
+.vitepress/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Temporary files
+tmp/
+temp/
+
+# Miscellaneous
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
