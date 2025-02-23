@@ -12,15 +12,19 @@ node_modules/
 
 # Build output
 dist/
-dist-ssr/
+
+*.tsbuildinfo
 
 # Environment variables
 .env
 .env.local
 .env.*.local
 
-# Local development files
-*.local
+# Temporary files
+tmp/
+temp/
+.cache/
+*.tgz
 
 # Editor directories and files
 .vscode/
@@ -33,21 +37,17 @@ dist-ssr/
 *.swp
 *.swm
 
-# Vite specific
-.vite/
-.vitepress/
-
-# Coverage directory used by tools like istanbul
+# Testing coverage
 coverage/
+*.lcov
 
 # Optional npm cache directory
 .npm/
 
-# Temporary files
-tmp/
-temp/
+# Ignore specific config files
+*.local
 
-# Miscellaneous
+# Other
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
