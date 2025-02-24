@@ -39,7 +39,7 @@ const AdminPage = () => {
                 correctAnswer: correctAnswer,
                 topic: topic,
             };
-            await api.post('http://localhost:5000/admin/add-question', newQuestion);
+            await api.post(`${import.meta.env.VITE_API_URL}/admin/add-question`, newQuestion);
             setMessage('Question added successfully!');
             // Reset form
             setQuestion('');
