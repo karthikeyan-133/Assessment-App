@@ -16,7 +16,7 @@ const AdminPage = () => {
 
     const grantSecondAttempt = async (username) => {
         try {
-            await api.post('http://localhost:5000/admin/grant-second-attempt', { username });
+            await api.post(`${import.meta.env.VITE_API_URL}/admin/grant-second-attempt`, { username });
             localStorage.setItem('hasSecondAttemptPermission', 'true');
             setMessage('Second attempt permission granted successfully.');
         } catch (err) {
