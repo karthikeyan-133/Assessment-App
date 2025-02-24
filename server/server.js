@@ -21,8 +21,23 @@ connectDB()
     process.exit(1);  // Exit process with failure
 });
 
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://assessment-app-client.onrender.com',
+  process.env.VITE_API_URL,
+];
+
 app.use(cors({
-   origin: process.env.VITE_API_URL || 'https://assessment-app-client.onrender.com'
+  origin: function (origin, callback) {
+    if (allowedOrigins.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],   // Add other methods as needed
+  allowedHeaders: ['Content-Type', 'Authorization'],  // Adjust headers if you have custom ones
+  credentials: true   // Enable if you need to send cookies or authorization headers
 }));
 
 app.use(express.json());
