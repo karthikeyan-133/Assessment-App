@@ -52,7 +52,7 @@ function Header() {
                                 <Link to="/OfferLetter" className="text-white hover:text-teal-200 transition duration-300 font-medium font-poppins">Offer Letter</Link>
                             </li>
                             <li>
-                                <Link to="/InterviewCallLetter" className="text-white hover:text-teal-200 transition duration-300 font-medium font-poppins">Interview Call Letter</Link>
+                                <Link to="/admin" className="text-white hover:text-teal-200 transition duration-300 font-medium font-poppins">Interview Call Letter</Link>
                             </li>
                             <li>
                                 <button
