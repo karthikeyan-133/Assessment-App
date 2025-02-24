@@ -22,7 +22,7 @@ connectDB()
 });
 
 app.use(cors({
-   origin: process.env.VITE_API_URL || 'http://localhost:5173'
+   origin: process.env.VITE_API_URL || 'https://assessment-app-client.onrender.com'
 }));
 
 app.use(express.json());
